@@ -1,1 +1,80 @@
+///// Procedure for New Project //////
+
+# create venv
+python -m venv venvName
+
+# Activate venv 
+for linux 
+source venvfolder/bin/python
+for windows
+F:\py_django_intern\proj1\Scripts\activate
+
+# for path go to folder where venv is created here it is F:\py_django_intern\proj1\Scripts\ then write activate in last for copying path use path given in windows folder bar
+
+# check (venv) is shown in cmd e.g. (proj1) F:\py_django_intern>
+
+# Install django in venv
+pip install django
+
+# To check whether Django is install
+python -m django --version
+
+# Create new Django Project
+django-admin startproject ProjectName
+
+# Check Project is created or not
+# if project file is present in following list # then it is created otherwise not
+ls for linux
+dir for windows
+
+# Change current Directory path to Project file
+cd ProjectName
+
+# this ls will show files in Project 
+# containing ProjectNamefile & manage.py file
+ls for linux
+dir for windows
+
+# Run Server
+# copy url given after exeuting following command & open that url in Browser
+python manage.py runserver
+
+# Stop server
+ctrl+c for stop server
+ 
+# Deactivate venv
+deactivate venvName
+
+///// Procedure for  Already created Project //////
+
+f:
+dir
+cd py_django_intern
+
+# activate venv
+F:\py_django_intern>F:\py_django_intern\proj1\Scripts\activate
+
+(proj1) F:\py_django_intern>python -m django --version
+3.2.7
+
+(proj1) F:\py_django_intern> dir
+
+# change directory 
+(proj1) F:\py_django_intern>cd mysite
+
+(proj1) F:\py_django_intern\mysite>dir
+
+# Run server
+# copy url given after exeuting following command & open that url in Browser
+(proj1) F:\py_django_intern\mysite>python manage.py runserver
+
+# Stop server
+ctrl+c for stop server
+
+# Deactivate venv
+(proj1) F:\py_django_intern\mysite>deactivate proj1
+
+F:\py_django_intern\mysite> cd ..
+
+F:\py_django_intern> 
 
