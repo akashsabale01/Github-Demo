@@ -1,3 +1,5 @@
+[All commands of Github ]( https://www.freecodecamp.org/news/git-cheat-sheet/) 
+
 ## Used Commands for Deployments
 
 git init
